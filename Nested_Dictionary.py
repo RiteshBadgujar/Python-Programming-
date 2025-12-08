@@ -1,0 +1,12 @@
+student={
+    "Name":"Ritesh",
+    "Mark":{
+        "Math":50,
+        "Bio":55,
+        "Eng":67,
+        "Hindi":62
+    },
+    "Class":"Mca"
+}
+print(student)
+print("\n",student["Mark"]["Bio"])
